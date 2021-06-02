@@ -32,6 +32,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: aleman/demo-trashme1
+        tag: trashme_tag_id_1
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
